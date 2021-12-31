@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "start": "react-app-rewired start",
-    "test": "npm run test"
+    "test": "npm run test",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -51,8 +52,7 @@
     }
   },
   "lint-staged": {
-    "**/*.js": "eslint --ext .js",
-    "**/*.jsx": "eslint --ext .jsx"
+    "**/*.js": "eslint --ext .js"
   },
   "browserslist": {
     "production": [

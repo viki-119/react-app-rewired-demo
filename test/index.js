@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import { hot } from 'react-hot-loader/root';
 import Empty from '@/components/Empty';
 
-const yy = 'asdf';
+const zz = 'asdf';
 class App extends PureComponent {
   render() {
     return (

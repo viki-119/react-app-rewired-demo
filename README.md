@@ -15,4 +15,4 @@
 
 * 移动端测试环境调试工具-chrome: chrome://inspect/#devices
 
-*
+* 在commit之前执行代码检查并

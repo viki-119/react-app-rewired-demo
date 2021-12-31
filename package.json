@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "test": "npm run test",
-    "precommit": "lint-staged"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -47,7 +47,8 @@
     "react-hot-loader": "^4.13.0"
   },
   "lint-staged": {
-    "**/*.js": "eslint --ext .js"
+    "**/*.js": "eslint --ext .js",
+    "*.js": "eslint --cache --fix"
   },
   "browserslist": {
     "production": [

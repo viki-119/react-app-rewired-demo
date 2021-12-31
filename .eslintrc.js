@@ -45,12 +45,5 @@ module.exports = {
     ],
     'no-param-reassign': [0],
     'react/require-default-props': [0],
-    // 'import/no-unresolved': [
-    //   2,
-    //   {
-    //     ignore: ['@'], // @ 是设置的路径别名
-    //   },
-    // ],
-    // 'import/extensions': ['always'],
   },
 };

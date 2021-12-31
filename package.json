@@ -1,0 +1,58 @@
+{
+  "name": "react-app-rewired-demo",
+  "version": "1.0.0",
+  "description": "react-app-rewired初始化工程",
+  "main": "index.js",
+  "homepage": "/react-app-rewired-demo/",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "react-app-rewired start",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viki-119/react-app-rewired-demo.git"
+  },
+  "keywords": [
+    "js",
+    "react"
+  ],
+  "author": "zdw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viki-119/react-app-rewired-demo/issues"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "alias-jsconfig-webpack-plugin": "^1.0.2",
+    "customize-cra": "^1.0.0",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "react-app-rewired": "^2.1.9",
+    "react-hot-loader": "^4.13.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

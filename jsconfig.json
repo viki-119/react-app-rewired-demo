@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "react-native": [
+                "react-native-web"
+            ],
+            "react-native/*": [
+                "react-native-web/*"
+            ],
+            "src": [
+                "src"
+            ],
+            "src/*": [
+                "src/*"
+            ],
+            "@": [
+                "src"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

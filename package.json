@@ -46,11 +46,6 @@
     "react-app-rewired": "^2.1.9",
     "react-hot-loader": "^4.13.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
-  },
   "lint-staged": {
     "**/*.js": "eslint --ext .js"
   },

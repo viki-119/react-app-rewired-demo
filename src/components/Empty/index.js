@@ -12,7 +12,7 @@ export default class Empty extends PureComponent {
   }
 
   render() {
-    return <div>demo</div>;
+    return <div className="empty">demodemodemodemodemodemodemodemodemodemodemodemodemodemodemo</div>;
   }
 }
 

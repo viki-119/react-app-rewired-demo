@@ -45,5 +45,8 @@ module.exports = {
     ],
     'no-param-reassign': [0],
     'react/require-default-props': [0],
+    // 'React' was used before it was defined  no-use-before-define
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
   },
 };

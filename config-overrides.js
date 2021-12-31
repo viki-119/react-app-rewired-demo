@@ -1,6 +1,6 @@
 // 参考文档: https://www.npmjs.com/package/customize-cra;
 const {
-  override, addDecoratorsLegacy, addWebpackAlias, babelInclude,
+  override, addDecoratorsLegacy, addWebpackAlias, addLessLoader, babelInclude,
 } = require('customize-cra');
 const AliasJsconfig = require('alias-jsconfig-webpack-plugin');
 const path = require('path');
@@ -14,6 +14,7 @@ module.exports = override(
   addWebpackAlias({
     '@': path.resolve(__dirname, 'src'),
   }),
+  addLessLoader(),
   babelInclude([
     path.resolve('./'),
   ]),

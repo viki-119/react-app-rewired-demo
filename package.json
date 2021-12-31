@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "react-app-rewired start",
-    "test": "npm run test",
+    "build": "npx babel src --watch -D -d lib",
     "prepare": "husky install"
   },
   "repository": {
@@ -30,11 +30,19 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-flow": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "alias-jsconfig-webpack-plugin": "^1.0.2",
+    "css-loader": "^5.2.7",
     "customize-cra": "^1.0.0",
-    "eslint": "^8.5.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.25.3",
@@ -42,9 +50,15 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.4",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0",
     "lint-staged": "^12.1.4",
     "react-app-rewired": "^2.1.9",
-    "react-hot-loader": "^4.13.0"
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "^4.0.3",
+    "style-loader": "^2.0.0",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
   },
   "lint-staged": {
     "**/*.js": "eslint --ext .js",

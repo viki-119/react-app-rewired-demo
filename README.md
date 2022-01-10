@@ -1,8 +1,8 @@
 # react-app-rewired
 
 * 项目初始
-  * npm init
-  * eslint init
+  * npm --init
+  * eslint --init
 
 * ESLint: 'React' was used before it was defined.(no-use-before-define)
   * 在.eslintrc.js的rules中添加一条规则
@@ -13,6 +13,11 @@
     "@typescript-eslint/no-use-before-define": ["error"]
   }
   ```
+
+  * 需要安装: eslint-import-resolver-alias 以满足lint alis
+  * 解决parsing error: unexpect token
+    * 加入babel-eslint;
+    * <https://www.cnblogs.com/tudou1179006580/p/14364837.html>
 
 * stylelint: <https://www.npmjs.com/package/stylelint>
 
